@@ -1,0 +1,18 @@
+{
+	"name": "MyLocalSQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "My Local MS SQL Server Instance in My Laptop",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=KRV;initial catalog=AUTOMATE",
+			"userName": "KRV",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmN2Q2N2EwMC0xNzc0LTRlMmItOWMyMS0wZTFmYjZkMDc1YmYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "MyLocalMSSQLInstane",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
