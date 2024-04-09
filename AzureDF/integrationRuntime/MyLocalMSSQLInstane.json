@@ -1,0 +1,6 @@
+{
+	"name": "MyLocalMSSQLInstane",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
