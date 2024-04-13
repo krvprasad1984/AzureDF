@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=False;data source=KRV;initial catalog=AUTOMATE;user id=KRV",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2YTkwODRmOC04Y2Q1LTQzMmMtODA2MC00NjFmYjMwMzZjZDAiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;data source=KRV;initial catalog=AUTOMATE;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5YmY3ZGUwZC1hMjUwLTQ3ZDItODJkMS03Njk4YzMyMDFhZGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "IRSQL",
